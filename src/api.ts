@@ -1,4 +1,4 @@
-export const url = "http://tictactoe-api:5000"
+export const url = "https://tictactoe-api.louisheal.com"
 
 export const newGame = async () => {
     const response = await fetch(url + "/games", {
