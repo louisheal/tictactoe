@@ -1,4 +1,4 @@
-export const url = "http://192.168.143.1:5000"
+export const url = "tictactoe-backend:5000"
 
 export const newGame = async () => {
     const response = await fetch(url + "/games", {
